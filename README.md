@@ -1,2 +1,2 @@
 # cracecasts
-Repository for CraceCasts YouTube channel
+Repository for the CraceCasts YouTube channel https://www.youtube.com/@CraceCasts
