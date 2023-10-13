@@ -45,7 +45,7 @@ agent_proxy.initiate_chat(
     - prints to the screen all the prices it finds 
     - check the length of the text of the price before printing or sending to slack, just skip if the length is less than 1
     - sends all the prices to a slack channel 
-    - the slack url to use is 'https://hooks.slack.com/services/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'
+    - the slack url to use is '<YOUR_SLACK_WEBHOOK_HERE>' 
     """,
 )
 

@@ -8,7 +8,7 @@ import requests
 import time
 
 def send_to_slack(text):
-    webhook_url = 'https://hooks.slack.com/services/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'
+    webhook_url = '<YOUR_SLACK_WEBHOOK_HERE>' 
     slack_data = {'text': text}
     response = requests.post(
         webhook_url, json=slack_data,
