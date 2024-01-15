@@ -2,10 +2,13 @@ from langchain.document_loaders import WebBaseLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.chat_models.openai import ChatOpenAI
 from datetime import datetime
+import dotenv
+
+dotenv.load_dotenv()
 
 def web_qa(url_list, query, out_name):
     openai = ChatOpenAI(
-        model_name="gpt-4",
+        model_name="gpt-3.5-turbo",
         max_tokens=2048
     )
     loader_list = []
